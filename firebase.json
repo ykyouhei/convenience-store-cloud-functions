@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "predeploy": [
+      "yarn --cwd functions run lint",
+      "yarn --cwd functions run build"
+    ]
+  },
+  "emulators": {
+    "functions": {
+      "port": 5000,
+      "host": "0.0.0.0"
+    }
+  }
+}
