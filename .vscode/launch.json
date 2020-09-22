@@ -9,7 +9,6 @@
             "type": "node",
             "protocol": "inspector",
             "request": "attach",
-            "port": 5000
+            "port": 5001
         }
     ]
-}

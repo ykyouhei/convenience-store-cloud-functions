@@ -1,13 +1,13 @@
 {
   "functions": {
     "predeploy": [
-      "yarn --cwd functions run lint",
-      "yarn --cwd functions run build"
+      "npm --prefix \"$RESOURCE_DIR\" run lint",
+      "npm --prefix \"$RESOURCE_DIR\" run build"
     ]
   },
   "emulators": {
     "functions": {
-      "port": 5000,
+      "port": 5001,
       "host": "0.0.0.0"
     }
   }
